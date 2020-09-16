@@ -11,12 +11,12 @@ public class Notes
 		int note = scanner.nextInt();
 		scanner.close();
 		if (note >= 10)
-			System.out.println("Admis !");
+			System.out.println("Admis");
 		else
 			if (note >= 8)
 				System.out.println("Rattrapge.");
 			else
-				System.out.println("AjournÃ©... :-(");
+				System.out.println("Ajourne");
 		}
 }
     
